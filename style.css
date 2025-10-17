@@ -80,18 +80,20 @@ footer {
     font-size: 0.9em;
 }
 
-
 /* Profile Picture */
 .profile-pic {
-    text-align: center;
+    display: flex;             /* use flexbox */
+    justify-content: center;   /* center horizontally */
+    align-items: center;       /* center vertically if needed */
     margin-top: 40px;
     margin-bottom: 30px;
+    width: 100%;               /* ensure it spans full width */
 }
 
 .profile-pic img {
-    width: 220px;              
+    width: 220px;
     height: auto;
-    border-radius: 15px;   
+    border-radius: 15px;
     border: 2px solid rgba(255, 255, 255, 0.6);
     box-shadow: 
         0 0 20px rgba(255, 255, 255, 0.6),
