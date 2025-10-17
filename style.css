@@ -9,7 +9,7 @@
 
 /* Body & background */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Tektur', sans-serif;
     background-image: url('hubble.jpg');
     background-size: cover; /* fills the page */
     background-position: center;
