@@ -81,23 +81,31 @@ footer {
 }
 
 
+/* Profile Picture */
 .profile-pic {
     text-align: center;
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .profile-pic img {
-    width: 200px;   
-    height: auto;        
-    border-radius: 12px;   
-    border: 3px solid #9fd3ff;
-    box-shadow: 0 0 20px rgba(0, 180, 255, 0.4);
+    display: inline-block;
+    width: 220px;             
+    height: auto;
+    border-radius: 15px;   
+    border: 2px solid rgba(120, 200, 255, 0.6);
+    box-shadow: 
+        0 0 20px rgba(0, 180, 255, 0.5),
+        0 0 40px rgba(0, 180, 255, 0.2),
+        0 0 60px rgba(0, 180, 255, 0.15);
     object-fit: cover;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 .profile-pic img:hover {
-    transform: scale(1.03);
-    box-shadow: 0 0 30px rgba(0, 180, 255, 0.6);
+    transform: scale(1.05);
+    box-shadow: 
+        0 0 25px rgba(0, 200, 255, 0.7),
+        0 0 50px rgba(0, 200, 255, 0.4),
+        0 0 80px rgba(0, 200, 255, 0.25);
 }
