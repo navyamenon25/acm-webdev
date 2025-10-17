@@ -8,11 +8,16 @@
 
 /* Body & background */
 body {
-    background: linear-gradient(120deg, #f6d365, #fda085);
-    color: #333;
-    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    background-image: url('NASA Scientific Visualization Studio _ Hubble Ultra Deep Field.jpeg');
+    background-size: cover; /* fills the page */
+    background-position: center;
+    background-attachment: fixed; /* stays in place */
+    color: #fff; /* choose text color that contrasts */
     padding: 20px;
+    line-height: 1.6;
 }
+
 
 /* Header */
 header {
